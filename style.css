@@ -52,3 +52,7 @@ footer{background:#06164f;color:#dce7ff;padding:54px 0 24px}.footer-grid{display
 .area-list span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);padding:7px 11px;border-radius:999px;font-weight:800;font-size:13px}
 .seo-local{padding:72px 0;background:#fff}
 @media(max-width:900px){.lang-switch{margin:8px 0}.area-strip .container{align-items:flex-start;flex-direction:column}}
+
+/* Keep the expanded bilingual navigation comfortable at tablet widths. */
+@media(min-width:901px) and (max-width:1180px){.menu{display:none}.hamb{display:block}.nav.open .menu{display:flex;position:absolute;left:0;right:0;top:82px;background:#fff;flex-direction:column;align-items:flex-start;padding:22px 4%;box-shadow:var(--shadow)}}
+@media(max-width:580px){.nav{gap:10px}.logo img{max-width:46vw}}
